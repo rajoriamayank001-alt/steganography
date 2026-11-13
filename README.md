@@ -40,6 +40,38 @@ The encoding process stores secret information inside the BMP image.
 The decoding process retrieves the hidden information from the encoded image.
 
 ## Author
+
 Mayank Rajoria
 
 GitHub: https://github.com/rajoriamayank001-alt
+
+## Compilation
+
+Compile the project using GCC:
+
+```bash
+gcc main.c encode.c decode.c -o stego
+```
+
+## Execution
+
+### Encoding
+
+```bash
+./stego -e beautiful.bmp secret.txt stego.bmp
+```
+
+### Decoding
+
+```bash
+./stego -d stego.bmp output.txt
+```
+
+## Learning Outcomes
+
+- Understanding LSB Steganography.
+- File handling in C.
+- Bitwise operations.
+- Pointers and structures.
+- Command Line Arguments.
+- BMP image processing.
