@@ -1,0 +1,8 @@
+*.o
+*.exe
+*.out
+*:Zone.Identifier
+*.swp
+stego
+test_encode
+test_decode
